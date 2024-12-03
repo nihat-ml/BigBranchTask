@@ -1,3 +1,4 @@
+
 .carousel-item{
     position: relative;
     height: 60vh;
@@ -40,3 +41,67 @@
     gap: 50px;
    }
   
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px 0px;
+    color: #888888;
+    
+}
+.contact{
+    display: flex;
+    align-items: center;
+    color: #888888;
+    gap: 20px;
+}
+.social-media a{
+    color: #888888;
+}
+.social-media i:hover{
+    cursor: pointer;
+    color: black;
+}
+.social-media a:hover{
+    cursor: pointer;
+    color: black;
+}
+.social-media{
+    display: flex;
+    align-items: center;
+    color: #888888;
+    gap: 20px;
+}
+
+.small-cards{
+    width:60%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 50px;
+}
+.small-card{
+    width: 26%;
+    text-align: center;
+}
+.small-card  i,p{
+    color: #888888;
+    padding: 20px;
+
+    
+}
+.small-card i{
+    font-size: 50px;
+
+}
+
+
+
+
