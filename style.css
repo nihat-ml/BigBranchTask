@@ -39,4 +39,19 @@
     display: flex;
     gap: 50px;
    }
+  @media(max-width:768px){
+    .navbar-two-text{
+        display: none;
+    }
+    .fa-bars{
+        display: block !important;
+    }
+  }
+  .fa-bars{
+      display: none ;  
+    
+}
+  @media(min-width:576px) and (max-width:992px){
+
+  }
   
