@@ -1,6 +1,7 @@
 .carousel-item{
     position: relative;
     height: 60vh;
+    padding-bottom: 50px;
    }
    .carousel-item-text {
     color: white;
@@ -39,6 +40,40 @@
     display: flex;
     gap: 50px;
    }
+   .learn-more{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(226, 233, 233);
+    height: 150px;
+    padding-top: 30px;
+   }
+   .learn-button{
+   padding-top: 10px;
+   }
+   .learn-button button{
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(190, 136, 136);
+    border: 1px solid transparent;
+    }
+    .courses-img{
+        background-image: url();
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   /* responsive */
   @media(max-width:768px){
     .navbar-two-text{
         display: none;
@@ -54,4 +89,4 @@
   @media(min-width:576px) and (max-width:992px){
 
   }
-  
+
