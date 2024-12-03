@@ -1,4 +1,8 @@
-
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 .carousel-item{
     position: relative;
     height: 60vh;
@@ -42,26 +46,25 @@
    }
   
 
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
+
 .navbar{
     display: flex;
     width: 60%;
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    padding: 20px 0px;
+    padding: 0px 20px;
     color: #888888;
+    flex-wrap: wrap;
     
 }
 .contact{
     display: flex;
+    justify-content: center;
     align-items: center;
     color: #888888;
-    gap: 20px;
+    /* gap: 20px; */
+    /* flex-wrap: wrap; */
 }
 .social-media a{
     color: #888888;
@@ -86,6 +89,7 @@
     margin: 0 auto;
     display: flex;
     margin-top: 50px;
+    
 }
 .small-card{
     width: 26%;
