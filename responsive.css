@@ -10,4 +10,14 @@
     .small-card{
         width: 50%;
     }
+    .recent-card{
+        width: 100%;
+    }
+    .box-1{
+        width: 100%;
+        margin: 30px;
+    }
+    .mini-box-2{
+        margin: 100px 0px;
+    }
 }
