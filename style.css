@@ -158,7 +158,7 @@
         justify-content: space-evenly;
         gap: 10px;
      }
-     .footer-all p, h5, a{
+     .footer-all p,  a{
         color: white;
      }
    
