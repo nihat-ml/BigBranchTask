@@ -1,0 +1,161 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+.navbar{
+display: flex;
+width: 60%;
+justify-content: space-between;
+align-items: center;
+margin: 0 auto;
+padding: 0px 30px;
+margin-top: 20px;
+color: #888888;
+flex-wrap: wrap;
+
+}
+.contact{
+display: flex;
+justify-content: center;
+align-items: center;
+color: #888888;
+gap: 20px;
+/* flex-wrap: wrap; */
+}
+.social-media a{
+color: #888888;
+}
+.social-media i:hover{
+cursor: pointer;
+color: black;
+}
+.social-media a:hover{
+cursor: pointer;
+color: black;
+}
+.social-media{
+display: flex;
+align-items: center;
+color: #888888;
+gap: 20px;
+}
+
+.navbar-two li, a {
+text-decoration: none;
+list-style-type: none;
+color: black;
+}
+.navbar-two {
+display: flex;
+justify-content: space-around;
+padding: 20px;
+}
+.navbar-two-text {
+display: flex;
+gap: 50px;
+}
+.back-coffee{
+background-image: url("https://demo.goodlayers.com/clevercourse/wp-content/themes/clevercourse/images/page-title-background.jpg");
+height: 380px;
+}
+.back-coffee h1{
+text-align: center;
+padding-top: 150px;
+font-size: 80px;
+color: rgb(255, 255, 255);
+
+}
+
+.all-inputs{
+    display: flex;
+    gap: 50px;
+    margin: 100px ;
+   justify-content: center;
+   align-items: center;
+  
+}
+.all-inputs .register-input{
+    padding: 10px 200px;
+}
+
+.inputs-left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.inputs-right{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.inputs-left .submit-form-btn{
+    width: 50%;
+    padding: 10px 50px;
+}
+.inputs-left textarea{
+    padding: 50px;
+}
+#gender{
+    padding: 10px;
+}
+.inputs-left button{
+    background-color: aqua;
+    color: aliceblue;
+    border: transparent;
+
+}
+.footer-one{
+    width: 15%;
+ }
+ .footer-two{
+   width: 25%;
+ }
+ .footer-two button{
+    padding: 5px 10px;
+    color: white;
+    background-color: aqua;
+ }
+ .footer-all{
+    padding: 100px;
+    background-color: rgb(73, 71, 71);
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+ }
+ .footer-all p {
+    color: white;
+ }
+ .footer-all h5 {
+    color: white;
+ }
+ .footer-all a {
+    color: white;
+ }
+ .three-one{
+    display: flex;
+    gap: 20px;
+ }
+ .three-one img{
+    width: 70px;
+    height: 70px;
+ }
+ .footer-four-tags{
+    text-decoration: none;
+    list-style: none;
+ }
+ .second-footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+ }
+ .second-footer p{
+    color: white;
+ }
+ .footer-wrapper{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+ }
