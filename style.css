@@ -193,9 +193,10 @@
 .recent-card{
     width: 32%;
     text-align: center;
-    border-bottom: 1px #72D5CD;
-    background-color: #F5F5F5;
-    
+    border-bottom:2px solid #95e0da; 
+}
+.recent-card p{
+    margin: 0px 20px;
 }
 .recent-card img{
     width: 100%;
@@ -208,6 +209,10 @@
 }
 .card-down button{
     padding: 8px 16px;
+    margin: 20px;
+    background-color: #72D5CD;
+    border: none;
+    color: white;
 }
 
 
