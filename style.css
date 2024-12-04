@@ -96,6 +96,98 @@
      .courses{
         padding-top: 100px;
      }
+     .students-text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+     }
+     .students-text button{
+        padding: 10px;
+        border-radius: 50%;
+        border: transparent;
+        background-color: #95e0da;
+     }
+     .student-texts{
+        width: 40%;
+        margin: 0 auto;
+        align-items: center;
+        padding: 20px;
+     }
+     .student-texts a {
+        color: aqua;
+     }
+     .wrapper-student{
+        background-color: rgb(223, 215, 202);
+        padding: 20px;
+     }
+     .check-all{
+        padding-top: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+     }
+     .check-img{
+        display: flex;
+        gap: 50px;
+     }
+     .contact-us{
+        padding: 30px;
+        margin-top: 50px;
+        background-color: aqua;
+        display: flex;
+        justify-content: space-around;
+     }
+     .footer-one{
+        width: 15%;
+     }
+     .footer-two{
+       width: 25%;
+     }
+     .footer-two button{
+        padding: 5px 10px;
+        color: white;
+        background-color: aqua;
+     }
+     .footer-all{
+        padding: 100px;
+        background-color: rgb(73, 71, 71);
+        display: flex;
+        justify-content: space-evenly;
+        gap: 10px;
+     }
+     .footer-all p, h5, a{
+        color: white;
+     }
+   
+     .three-one{
+        display: flex;
+        gap: 20px;
+     }
+     .three-one img{
+        width: 70px;
+        height: 70px;
+     }
+     .footer-four-tags{
+        text-decoration: none;
+        list-style: none;
+     }
+     .second-footer{
+        background-color: black;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 30px;
+     }
+     .second-footer p{
+        color: white;
+     }
+     .footer-wrapper{
+        width: 70%;
+        display: flex;
+        justify-content: space-evenly;
+     }
      
 
 
@@ -126,6 +218,15 @@
 }
   @media(min-width:576px) and (max-width:992px){
 
+  }
+  @media (min-width:576px) and (max-width:1192px){
+    .check-img{
+        width: 33%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
   }
 
 
