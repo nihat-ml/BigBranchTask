@@ -132,7 +132,7 @@
      }
      .check-img{
         display: flex;
-        gap: 50px;
+        gap: 20px;
      }
      .contact-us{
         padding: 30px;
@@ -157,6 +157,7 @@
         background-color: rgb(73, 71, 71);
         display: flex;
         justify-content: space-evenly;
+        flex-wrap: wrap;
         gap: 10px;
      }
      .footer-all p {
@@ -227,17 +228,13 @@
 
   }
   @media (min-width:576px) and (max-width:1192px){
-    .check-img{
-        width: 33%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+    
   }
 
 
-  
+  .modal{
+    background-color: #72D5CD;
+  }
 
 
 .navbar{
@@ -380,6 +377,7 @@
         width: 70%;
     }
 }
+
 .mini-box-2{
 
   width: 300px;
@@ -433,6 +431,11 @@
     border-bottom:4px solid #65B4AD;
     color: white;
 }
+#test{
+    justify-content: flex-start !important;
+}
+
+
 
 
 
