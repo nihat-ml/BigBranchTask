@@ -1,0 +1,15 @@
+{
+  "users": [
+    {
+      "username": "user_example",
+      "password": "password123",
+      "firstName": "John",
+      "lastName": "Doe",
+      "gender": "male",
+      "email": "user@example.com",
+      "address": "123 Example St, City, Country",
+      "rePassword": "password123",
+      "phone": "123456789"
+    }
+  ]
+}

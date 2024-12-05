@@ -229,9 +229,7 @@
   }
 
 
-  .modal{
-    background-color: #72D5CD;
-  }
+
 
 
 .navbar{
@@ -431,8 +429,24 @@
 #test{
     justify-content: flex-start !important;
 }
-
-
+.modal-backdrop {
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+.header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    transition: top 0.3s ease-in-out;
+  }
+  
+  .navbar-two {
+    position: sticky;
+    top: 0;
+    background-color: white; 
+    z-index: 9;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
 
 
 
